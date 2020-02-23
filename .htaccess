@@ -1,17 +1,20 @@
 RewriteEngine on
 RewriteOptions inherit
+# RewriteBase /
 
-#RewriteCond %{HTTP:Accept-Language} ^sk [NC]
-#RewriteRule ^$ http://localhost:8080/sk/ [L,R=301]
+# RewriteCond %{HTTP:Accept-Language} ^sk [NC]
+# RewriteRule ^$ http://localhost:8080/sk/ [L,R=301]
 
-#RewriteRule ^/games$ index.php?nav=games&lang=$1 [L]
-#RewriteRule ^games$ index.php?nav=games&lang=en [L]
+# RewriteRule ^/games$ index.php?nav=games&lang=$1 [L]
+# RewriteRule ^games$ index.php?nav=games&lang=en [L]
 
 RewriteCond %{DOCUMENT_ROOT}/$1\.html -f
 RewriteRule (.*) $1.html [L,QSA]
+# RewriteCond %{DOCUMENT_ROOT}/$1\.html -f
+# RewriteRule ^(.*)/?$ $1.html [L,QSA]
 
-#RewriteRule ^(en|sk)(/)?$ index.php?lang=$1 [L]
-#RewriteRule ^(/)?$ index.php?lang=en [L]
+# RewriteRule ^(en|sk)(/)?$ index.php?lang=$1 [L]
+# RewriteRule ^(/)?$ index.php?lang=en [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
