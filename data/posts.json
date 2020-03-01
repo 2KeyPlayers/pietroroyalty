@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mojich-9-rad",
+    "image": "002picture.jpg",
+    "title": "Mojich 9 osobných rád, ako sa zdokonaliť v tvorbe beatov",
+    "intro": "Tu musím vytvoriť prvý text k článku číslo jedna...",
+    "text": "To, že máš rád hiphop alebo hudbu je úplne odlišný pojem. Ak ťa vôbec nebaví iný žáner, tak to ďalej ani nemusíš čítať.",
+    "tags": "hudba,video,produkcia",
+    "date": "2020-01-10T14:48:00"
+  },
+  {
+    "id": "preco",
+    "image": "001picture.jpg",
+    "title": "Prečo som založil túto stránku?",
+    "intro": "Tu musím vytvoriť prvý text k článku číslo dva...",
+    "text": "Keď sa pozriem spätne na seba, tak si spomeniem ako som po nociach hľadal články na zahraničných stránkach, len aby som sa naučil to, čo ma fascinuje dodnes.",
+    "tags": "hudba,video,produkcia",
+    "date": "2020-01-02T00:18:00"
+  }
+]

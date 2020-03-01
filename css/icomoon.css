@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1lpsaa');
+  src:  url('fonts/icomoon.eot?1lpsaa#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1lpsaa') format('truetype'),
+    url('fonts/icomoon.woff?1lpsaa') format('woff'),
+    url('fonts/icomoon.svg?1lpsaa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-hover:before {
+  content: "\e90f";
+  color: #3c5a99;
+}
+.icon-facebook:before {
+  content: "\e910";
+  color: #ababab;
+}
+.icon-instagram-hover:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+  color: #ababab;
+}
+.icon-menu:before {
+  content: "\e913";
+}
+.icon-search:before {
+  content: "\e914";
+}
+.icon-soundcloud-hover .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-soundcloud-hover .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(240, 73, 35);
+}
+.icon-soundcloud:before {
+  content: "\e915";
+  color: #ababab;
+}
+.icon-twitter-hower:before {
+  content: "\e916";
+  color: #5fa9dd;
+}
+.icon-twitter:before {
+  content: "\e917";
+  color: #ababab;
+}

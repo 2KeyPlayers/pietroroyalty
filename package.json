@@ -1,0 +1,25 @@
+{
+  "name": "pietroroyalty",
+  "version": "1.0.0",
+  "description": "Pietro Royalty",
+  "main": "sass/styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2KeyPlayers/pietroroyalty.git"
+  },
+  "author": "2 Key Players",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2KeyPlayers/pietroroyalty/issues"
+  },
+  "homepage": "https://github.com/2KeyPlayers/pietroroyalty#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  }
+}

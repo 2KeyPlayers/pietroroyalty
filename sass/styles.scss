@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import '../node_modules/bulma/bulma.sass';
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,300');
+
+// Custom colors
+$gold: #c1b498;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Work Sans', sans-serif;
+$primary: $gold;
+$link: $gold;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+
+$navbar-background-color: $black-ter;
+$navbar-box-shadow-size: 0;
+// $navbar-box-shadow-color: ;
+// $navbar-height: ;
+// $navbar-padding-vertical: 0.25rem;
+// $navbar-padding-horizontal: ;
+$navbar-item-color: $white;
+$navbar-item-hover-color: $gold;
+$navbar-item-hover-background-color: $black-ter;
+
+$section-padding: 0;
+
+$card-shadow: none;
+$card-content-padding: 1.5rem 0.875rem 0 0.875rem;
+$card-footer-border-top: none;
+$card-footer-padding: 0.625rem 0.875rem;
+
+// $input-shadow: none;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/form/_all.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
+@import '../node_modules/bulma/sass/components/card.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
+// @import '../node_modules/bulma/sass/layout/hero.sass';
+// @import '../node_modules/bulma/sass/layout/footer.sass';
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  font-weight: 300;
+}
+
+.navbar {
+  .navbar-brand {
+    width: 100%;
+    justify-content: space-between;
+
+    .navbar-title {
+      color: $gold;
+      font-size: 0.625em;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+#posts {
+  display: flex;
+
+  .card {
+    width: 25% !important;
+    // position: relative;
+    // background-color: #ffffff !important;
+    // overflow: hidden;
+  }
+
+  .card:nth-child(2n + 0) {
+    background-color: $grey-lightest !important;
+  }
+
+  .card:nth-child(2n + 1) {
+    background-color: $white !important;
+  }
+}
+
+.card {
+  .card-image {
+    overflow: hidden;
+
+    a img {
+      -moz-transition: all 0.25s;
+      -webkit-transition: all 0.25s;
+      transition: all 0.25s;
+    }
+    a:hover img {
+      -moz-transform: scale(1.08);
+      -webkit-transform: scale(1.08);
+      transform: scale(1.08);
+    }
+  }
+
+  .card-body {
+    position: relative;
+    width: 100%;
+    padding-top: 66.66%; /* 3:2 */
+  }
+
+  .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: $grey-dark;
+
+    a .title,
+    a .subtitle {
+      font-weight: 400;
+      color: $black-ter;
+      padding-bottom: 1.5rem;
+    }
+    a:hover .title,
+    a:hover .subtitle {
+      color: $gold;
+      padding-bottom: 1.5rem;
+    }
+
+    .content {
+      margin-bottom: 0;
+    }
+    footer {
+      padding: 0.625rem 0;
+      font-size: 0.75rem;
+      color: $grey;
+
+      time {
+        justify-content: flex-start;
+      }
+    }
+  }
+}
