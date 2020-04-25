@@ -8,7 +8,8 @@
 $gold: #c1b498;
 
 // Update Bulma's global variables
-$family-sans-serif: 'Work Sans', sans-serif;
+$family-primary: 'Work Sans', sans-serif;
+// $family-sans-serif: 'Work Sans', sans-serif;
 $primary: $gold;
 $link: $gold;
 // $widescreen-enabled: false;
@@ -57,7 +58,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', $family-sans-serif;
 }
 
 body {

@@ -21,8 +21,9 @@ Pietro Roaylty
 
 ## Customize
 
-Bulma can be customized by adapting these [variables](https://bulma.io/documentation/customize/variables/).
-Run `npm run css-build`. To watch for changes, launch `npm start`.
+1. Bulma can be customized by adapting these [variables](https://bulma.io/documentation/customize/variables/).
+2. Run `npm run css-build`.
+3. To watch for changes, launch `npm start`.
 
 ## Run
 
