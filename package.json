@@ -20,6 +20,6 @@
   "homepage": "https://github.com/2KeyPlayers/pietroroyalty#readme",
   "devDependencies": {
     "bulma": "^0.8.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
